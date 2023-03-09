@@ -8,5 +8,6 @@
 <h2>Este repositório esta dividido em níveis, informado em cada exercício no <a href="https://www.beecrowd.com.br">Beecrowd</a></h2>
 <hr>
 <h3><a href="https://github.com/zMatheus22/SQL--URI--Beecrowd/blob/main/Nivel-01.sql">Nível 01</a></h3>
+<h3><a href="https://github.com/zMatheus22/SQL--URI--Beecrowd/blob/main/Nivel-02.sql">Nível 02</a></h3>
 
 <footer>Matheus Vinicyus Strada - 2023</footer>
