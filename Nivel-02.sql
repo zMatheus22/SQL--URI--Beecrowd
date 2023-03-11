@@ -45,6 +45,10 @@ INSERT INTO attendances VALUES
 (DEFAULT,'3','2','2'),
 (DEFAULT,'2','4','2');
 
+SELECT d.name, ROUND(SUM((a.hours * 150) + ((a.hours * 15) * w.bonus) * .1), 1) AS salary 
+FROM doctors AS d JOIN attendances AS a ON a.id_doctor = d.id 
+JOIN work_shifts AS w ON w.id = a.id_work_shift GROUP BY d.name 
+ORDER BY salary desc;
 
 DROP TABLE attendances;
 DROP TABLE doctors;
